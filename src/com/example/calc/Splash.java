@@ -49,7 +49,7 @@ public class Splash extends Activity implements OnClickListener {
 		t = (TextView) findViewById(R.id.content);
 		c = (TextView) findViewById(R.id.cc);
 		
-		c.setText("click to skip\ncalculator sanko dec 2014");
+		c.setText("click to skip\ncalculator sanko 2015");
 		
 		String str = "GET HELP IN \nMENU\n\n";
 		str += "SWIPE IT   <<<\n\n";
@@ -62,7 +62,7 @@ public class Splash extends Activity implements OnClickListener {
 		c.setOnClickListener(this);
 		
 		//四秒闪屏自动进入主界面
-		h.postDelayed(r, 4000);		
+		h.postDelayed(r, 4000);	
 		
 	}
 	

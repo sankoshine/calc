@@ -63,7 +63,7 @@ public class MainActivity extends Activity {
         if (id == R.id.action_about) {
         	new AlertDialog.Builder(this)
 			.setTitle("About")
-			.setMessage("sanko\n\nfor 21st birthday\n\n2014-12-26")
+			.setMessage("sanko\n\nfor 21st birthday")
 			.setNegativeButton("Best Wishes", new OnClickListener() {				
 				@Override
 				public void onClick(DialogInterface arg0, int arg1) {

@@ -6,7 +6,7 @@
 
     <TextView
         android:id="@+id/expression"
-        android:layout_width="fill_parent"
+        android:layout_width="fill_parent" 
         android:layout_height="140dp"
         android:background="#CCC"
         android:gravity="left|center_vertical"
